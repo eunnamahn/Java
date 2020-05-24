@@ -26,11 +26,14 @@ public class daysInMonth {
 //			System.out.println("Invalid month!");
 //		}
 //		
+		// Declare variables 
 		int year = 2000;
 		int month = 12;
 		int day;
+		
 		boolean leap;
 		
+		// Determine if given year is a leap year or not using If statement
 		if (year % 4 == 0)
 		{
 			if (year % 100 == 0)
@@ -45,26 +48,26 @@ public class daysInMonth {
 			leap = false;
 		
 		
-		
+		// Print out appropriate message based on the given year
 		if (leap == true) {
-		
 			System.out.println(year + " is a leap year.");
-		
 		} else {
-		
 			System.out.println(year + " is not a leap year.");
-		
 		} 
 		
 		// https://www.programiz.com/java-programming/examples/leap-year
 		
 		
+		
+		// Determine number of days for the given month using Switch statement
 		switch (month) {
+		// Cases 1, 3, 5, 7, 8, 10, 12 give 31 days
 		case 1: case 3: case 5: case 7: case 8: case 10: case 12:
 			day = 31;
 			System.out.println("Year: " + year + "\t Month: " + month + "\t Day: " + day);
 			break;
-			
+		
+		// Case 2 gives either 29 or 28 days
 		case 2: 
 			if (leap == true) {
 				day = 29;
@@ -74,7 +77,8 @@ public class daysInMonth {
 				System.out.println("Year: " + year + "\t Month: " + month + "\t Day: " + day);
 			}
 			break;
-			
+		
+		// Cases 4, 6, 9, and 11 give 30 days
 		case 4: case 6: case 9: case 11:
 			day = 30;
 			System.out.println("Year: " + year + "\t Month: " + month + "\t Day: " + day);

@@ -71,6 +71,7 @@ public class iceCreamSelection {
 			System.out.println("You have selected 'Scholar's Chip'.");
 		
 		} else {
+			
 			System.out.println("You have selected 'White Out'.");
 		
 		} 

@@ -24,7 +24,6 @@ public class iceCreamSelection {
 		}
 		
 	}
-
 	
 	public static void main(String[] args) {
 		

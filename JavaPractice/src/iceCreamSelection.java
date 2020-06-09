@@ -44,7 +44,6 @@ public class iceCreamSelection {
 		String flavors = scan.next();
 		scan.close();
 	
-		
 		// Prints out the flavor that user has entered using If Statement.
 		if (flavors.equals(IceCream.ALUMNISWIRL.getShortKey())) {
 			

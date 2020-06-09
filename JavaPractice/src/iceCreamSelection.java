@@ -16,11 +16,15 @@ public class iceCreamSelection {
 		private final String shortKey;
 		
 		IceCream(String shortKey) {
+			
 			this.shortKey = shortKey;
+		
 		}
 		
 		public String getShortKey() {
+			
 			return this.shortKey;
+		
 		}
 		
 	}

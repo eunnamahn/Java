@@ -30,7 +30,6 @@ public class daysInMonth {
 // https://www.programiz.com/java-programming/examples/leap-year
 		
 		
-		
 		// Declare variables 
 		int year = 2000;
 		int month = 12;

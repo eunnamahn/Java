@@ -13,7 +13,6 @@ public class daysInMonth {
 //		int month = sc.nextInt();
 //		
 		
-		
 //		if (year > 0) {
 //			System.out.println("Year: " + year);
 //		} else {

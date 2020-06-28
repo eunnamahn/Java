@@ -22,7 +22,6 @@ public class isPrime {
 				System.out.println(number);
 			}
 				
-			
 		}
 				
 	}

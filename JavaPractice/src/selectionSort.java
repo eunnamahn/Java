@@ -5,7 +5,7 @@ public class selectionSort {
 		
 		int [] array = {52, 10, 26, 4, 16, 12, 9, 30, 7};
 		int i, j, k;
-		int minValue, minIndex, temp;
+		int minIndex, temp;
 		int size = array.length;
 		
 		for (i = 0; i < size-1; i++)

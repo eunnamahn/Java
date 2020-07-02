@@ -28,11 +28,6 @@ public class insertionSort {
 			System.out.println();
 		}
 		
-//		for (k = 0; k < size; k++)
-//		{
-//			System.out.println(array[k]);
-//		}
-		
 	}
 
 }

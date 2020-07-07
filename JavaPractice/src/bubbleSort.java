@@ -3,12 +3,14 @@ public class bubbleSort {
 	public static void main(String[] args) {
 		
 		int[] array = {52, 10, 26, 4, 16, 12, 9, 30, 7};
+		int i, j, k;
 		int temp;
+		int arraySize = array.length;
 		
-		for (int i = 0; i < array.length-1; i++)
+		for (i = 0; i < arraySize-1; i++)
 		{
 			System.out.println("i: " + i);
-			for (int j = 0; j < array.length-i-1; j++)
+			for (j = 0; j < arraySize-i-1; j++)
 			{
 				if (array[j] > array[j+1])
 				{
@@ -17,7 +19,7 @@ public class bubbleSort {
 					array[j+1] = temp;
 				}
 				
-				for (int k = 0; k < array.length; k++)
+				for (k = 0; k < arraySize; k++)
 				{
 					System.out.print(array[k] + " ");
 				}
